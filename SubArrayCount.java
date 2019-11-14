@@ -16,7 +16,12 @@ public class SubArrayCount
 	System.out.println("Enter value of k");
 	    
         int k=sc.nextInt();
-	    
+	int a[]=new int[n];
+	System.out.println("Enter the elements of array"); 
+	for(int i=0;i<n;i++)
+	{
+		a[i]=sc.nextInt;
+	}
         int m=n+1-k;
 	
         int ans=(m*(m+1))/2;
